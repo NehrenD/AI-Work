@@ -1,0 +1,1 @@
+"""Thinkspace Education Platform scraper."""

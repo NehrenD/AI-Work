@@ -1,0 +1,21 @@
+# ── Secrets ───────────────────────────────────────────────────────────────
+.env
+
+# ── Generated output (scraped Markdown files) ─────────────────────────────
+content/
+
+# ── uv / virtualenv ───────────────────────────────────────────────────────
+.venv/
+uv.lock
+
+# ── Python build artefacts ────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# ── Test / coverage artefacts ─────────────────────────────────────────────
+.pytest_cache/
+.coverage
+htmlcov/
